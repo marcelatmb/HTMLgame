@@ -1,0 +1,129 @@
+
+.body {background-color: #040404;}
+
+.menu{
+font-size: 20px;
+font-weight: 200;
+padding: 20px 18%;    
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+color: #ECECEC;
+background-color: #040404;
+}
+
+.baixo{
+font-size: 20px;
+font-weight: 200;
+padding: 20px 10%;    
+display: flex;
+flex-direction: row;
+
+
+color: #ECECEC;
+background-color: #07060C;
+
+}
+
+.team{
+border-radius: 100px;
+border: 1px solid white;
+padding: 5px;
+}
+
+.imagens{
+align-items: center;
+    background-color: #07060C;
+}
+
+.logo{
+    Display: block; 
+    Margin: 20px auto; 
+    max-width: 40%;
+    text-align: center; 
+    Position: absolute ;
+    margin-top: 190px (principal);
+    Top: 50% ;
+    Left: 30%;
+    transform: (-50,-50);
+}
+.textinho{
+   color: #ECECEC;
+   margin-bottom: 800px;
+    Display: block; 
+    Margin: 50px auto; 
+    text-align: center; 
+    Position: absolute ;
+    margin-top: 190px (principal);
+    Top: 42%;
+    Left: 30%;
+    transform: (-50,-50);
+    margin-left: 140px;
+}
+
+.bichovermelho, .bichovermelho img{
+    Margin: 20px auto; 
+    max-width: 40%;
+    text-align: center; 
+
+    margin-top: 190px (principal);
+    Top: 90% ;
+    Left: 30%;
+
+}
+
+.disponivel {
+text-align: center;
+color: grey;
+font-size: 40px;
+
+
+}
+
+.plataformas img {
+    width: 150px;
+    margin: 0px;
+   
+}
+.plataformas{
+ display: flex;
+    justify-content: space-around;
+    margin: auto 50px;
+    
+
+}
+
+
+
+
+
+
+.background{
+display: block;
+margin: px auto;
+max-width: 100%;
+position: relative;
+
+}
+
+.coluna1 {
+padding: 30px;
+
+}
+
+.coluna2{
+padding: 30px;
+padding-left: 8%;
+}
+
+.letrag{
+font-size: 30px;
+
+}
+
+.coluna3 {
+    position: Absolute; 
+    bottom: 20; 
+    right: 0;
+}
