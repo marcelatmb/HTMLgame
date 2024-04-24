@@ -1,5 +1,10 @@
 
-.body {background-color: #040404;}
+body {
+    background-color: black; /* Cor de fundo preta */
+    margin: 0; /* Remover margens padrão do body */
+    padding: 0; /* Remover preenchimento padrão do body */
+}
+
 
 .menu{
 font-size: 20px;
@@ -21,8 +26,8 @@ display: flex;
 flex-direction: row;
 
 
-color: #ECECEC;
-background-color: #07060C;
+color: #fff;
+background-color: #000000;
 
 }
 
@@ -62,20 +67,35 @@ align-items: center;
     margin-left: 140px;
 }
 
-.bichovermelho, .bichovermelho img{
+.bichovermelho{
     Margin: 20px auto; 
     max-width: 40%;
     text-align: center; 
-
-    margin-top: 190px (principal);
+    margin-top: 10px (principal);
     Top: 90% ;
     Left: 30%;
+    position: relative;
+
 
 }
+.bi {
+    position: relative;
+    border-radius: 10%;
+    background-color: black;
+    width: 800px; 
+    Top: 90% ;
+}
+
+.bi img {
+    display: block; /* Garante que a imagem seja tratada como um bloco */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+
 
 .disponivel {
 text-align: center;
-color: grey;
+color: rgb(255, 255, 255);
 font-size: 40px;
 
 
@@ -105,6 +125,7 @@ margin: px auto;
 max-width: 100%;
 position: relative;
 
+
 }
 
 .coluna1 {
@@ -124,6 +145,6 @@ font-size: 30px;
 
 .coluna3 {
     position: Absolute; 
-    bottom: 20; 
+    bottom: 0; 
     right: 0;
 }
